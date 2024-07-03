@@ -7,6 +7,7 @@ import "@openzeppelin/contracts/utils/math/Math.sol";
 
 contract EtherVault {
     using Math for uint256;
+    
 
     mapping(address => uint256) public balances;
 
